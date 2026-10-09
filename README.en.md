@@ -48,6 +48,24 @@ Agent commands run in a macOS sandbox (writes allowed only in the project, tempo
 
 ![Agent safety](docs/screenshots/07-sicurezza-agente.png)
 
+### Plan mode
+
+You can agree on the work before any file is touched: in **Plan** mode the agent reads the project and proposes the steps without changing anything. Ask for any change (drop a step, change a technical choice) until you are happy with the plan, then press **Run the plan**: the agent carries it out step by step and does not consider the work done until every step is completed and verified.
+
+![Plan mode](docs/screenshots/09-modalita-piano.png)
+
+### The web, with your permission
+
+When up-to-date information is needed (the latest version of a library or its CDN link, the official documentation, an error it cannot solve) the agent can search the web and read pages. Every access asks **Allow**, **Always allow in this conversation** or **Reject**.
+
+![Web access](docs/screenshots/10-accesso-internet.png)
+
+### System installs and configuration, with your permission
+
+The agent can install software, set up cron jobs and services, create an Apache virtual host, even with `sudo`, on your Mac or on the server. Every system command is shown verbatim and runs only when you press **Run**. If sudo is needed, you type the password in the card: it never reaches the model and is never stored.
+
+![System command](docs/screenshots/11-comando-di-sistema.png)
+
 ### More
 
 - **Debug routine**: when the same error comes back after three fixes, the agent must first run a diagnosis (only the failing test, printed values) before it can edit files again.

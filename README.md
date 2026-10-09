@@ -46,6 +46,24 @@ I comandi dell'agente girano in una sandbox di macOS (scrittura solo nel progett
 
 ![Sicurezza dell'agente](docs/screenshots/07-sicurezza-agente.png)
 
+### Modalità Piano
+
+Prima di toccare i file puoi concordare il lavoro: in **Piano** l'agente legge il progetto e propone i passi, senza modificare nulla. Chiedi le modifiche che vuoi (togli un passo, cambia una scelta tecnica) finché il piano ti convince, poi premi **Esegui il piano**: l'agente lo esegue passo per passo e non considera finito il lavoro finché tutti i passi non sono completati e verificati.
+
+![Modalità Piano](docs/screenshots/09-modalita-piano.png)
+
+### Internet, con il tuo consenso
+
+Quando serve un'informazione aggiornata (l'ultima versione di una libreria o del suo link CDN, la documentazione ufficiale, un errore che non riesce a risolvere) l'agente può cercare sul web e leggere le pagine. Ogni accesso chiede **Consenti**, **Consenti sempre in questa conversazione** o **Rifiuta**.
+
+![Accesso a internet](docs/screenshots/10-accesso-internet.png)
+
+### Installazioni e configurazioni di sistema, con il tuo consenso
+
+L'agente può installare software, configurare cron e servizi, creare un virtual host Apache, anche con `sudo`, sul Mac o sul server. Ogni comando di sistema compare con il testo esatto e parte solo se premi **Esegui**. Se serve sudo, la password la scrivi tu nella scheda: non arriva mai al modello e non viene salvata.
+
+![Comando di sistema](docs/screenshots/11-comando-di-sistema.png)
+
 ### Altro
 
 - **Routine di debug**: quando lo stesso errore si ripresenta dopo tre correzioni, l'agente deve prima fare una diagnosi (eseguire solo il test che fallisce, stampare i valori) e solo dopo può modificare di nuovo i file.
