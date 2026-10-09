@@ -71,6 +71,7 @@ The agent can install software, set up cron jobs and services, create an Apache 
 - **Debug routine**: when the same error comes back after three fixes, the agent must first run a diagnosis (only the failing test, printed values) before it can edit files again.
 - **Project notes** (`.ollocode/notes.md`): architecture, commands and decisions stay available to the agent across requests.
 - **Sub-agents**: the agent can hand a module over to another agent with a clean context.
+- **In-app updates**: when a new version is released on GitHub a notice shows what's new; **Update now** downloads it, verifies its signature, installs it and restarts Ollocode.
 - Interface languages: Italian, English, German, French, Spanish.
 
 ## Which Mac, which model

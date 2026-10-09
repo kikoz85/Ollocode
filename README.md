@@ -69,6 +69,7 @@ L'agente può installare software, configurare cron e servizi, creare un virtual
 - **Routine di debug**: quando lo stesso errore si ripresenta dopo tre correzioni, l'agente deve prima fare una diagnosi (eseguire solo il test che fallisce, stampare i valori) e solo dopo può modificare di nuovo i file.
 - **Note di progetto** (`.ollocode/notes.md`): architettura, comandi e decisioni restano disponibili all'agente tra una richiesta e l'altra.
 - **Sotto-agenti**: l'agente può affidare un modulo a un altro agente con un contesto pulito.
+- **Aggiornamenti dall'app**: quando su GitHub esce una nuova versione compare un avviso con le novità; **Aggiorna ora** la scarica, ne verifica la firma, la installa e riavvia Ollocode.
 - Lingue dell'interfaccia: italiano, inglese, tedesco, francese, spagnolo.
 
 ## Quale Mac e quale modello
