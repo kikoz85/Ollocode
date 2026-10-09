@@ -48,7 +48,7 @@ I comandi dell'agente girano in una sandbox di macOS (scrittura solo nel progett
 
 ### Modalità Piano
 
-Prima di toccare i file puoi concordare il lavoro: in **Piano** l'agente legge il progetto e propone i passi, senza modificare nulla. Chiedi le modifiche che vuoi (togli un passo, cambia una scelta tecnica) finché il piano ti convince, poi premi **Esegui il piano**: l'agente lo esegue passo per passo e non considera finito il lavoro finché tutti i passi non sono completati e verificati.
+Prima di toccare i file puoi concordare il lavoro: in **Piano** l'agente legge il progetto e propone i passi, senza modificare nulla. Chiedi le modifiche che vuoi (togli un passo, cambia una scelta tecnica) finché il piano ti convince. Il piano viene salvato nel progetto come **PIANO.md**, con i passi in una checklist. Poi lo esegui **un passo alla volta** (▶ sul passo o *Esegui il prossimo passo*) oppure tutto insieme: ogni passo viene verificato e la sua casella in PIANO.md si spunta da sola.
 
 ![Modalità Piano](docs/screenshots/09-modalita-piano.png)
 

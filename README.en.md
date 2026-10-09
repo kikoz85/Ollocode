@@ -50,7 +50,7 @@ Agent commands run in a macOS sandbox (writes allowed only in the project, tempo
 
 ### Plan mode
 
-You can agree on the work before any file is touched: in **Plan** mode the agent reads the project and proposes the steps without changing anything. Ask for any change (drop a step, change a technical choice) until you are happy with the plan, then press **Run the plan**: the agent carries it out step by step and does not consider the work done until every step is completed and verified.
+You can agree on the work before any file is touched: in **Plan** mode the agent reads the project and proposes the steps without changing anything. Ask for any change (drop a step, change a technical choice) until you are happy with the plan. The plan is saved in the project as **PLAN.md** (PIANO.md in Italian), with the steps as a checklist. Then run it **one step at a time** (▶ on a step or *Run the next step*) or all at once: each step is verified and its box in the plan file is ticked automatically.
 
 ![Plan mode](docs/screenshots/09-modalita-piano.png)
 
