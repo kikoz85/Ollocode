@@ -4,7 +4,7 @@
 
 [![Sponsor Ollocode](https://img.shields.io/badge/Sponsor-Ollocode-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/kikoz85)
 
-**[⬇️ Download the latest version for macOS](https://github.com/kikoz85/Ollocode/releases/latest)**
+**[⬇️ Download the latest version for macOS](https://github.com/kikoz85/Ollocode/releases/latest)** · [🌐 App website](https://www.enricofanucchi.com/en/app/ollocode?utm_source=github&utm_campaign=readme)
 
 A macOS IDE with an **agent that writes, runs and verifies code using local models only** (Ollama or Apple MLX). Nothing leaves your Mac: no cloud, no API keys.
 
